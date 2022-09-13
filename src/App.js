@@ -1,10 +1,11 @@
 import React from 'react';
 import Experience from './components/Experience';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-      <h3>hello</h3>
+      <Header />
     </>
   );
 }
