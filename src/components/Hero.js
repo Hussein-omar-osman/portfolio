@@ -8,7 +8,7 @@ const Hero = () => {
         <h1>
           I'M Hus<span>sein</span> <br /> Om<span>ar</span>
         </h1>
-        <h3>Front-End Developer</h3>
+        <h3>Full-Stack Developer</h3>
         <a href='#' className='btn'>
           Download CV
         </a>

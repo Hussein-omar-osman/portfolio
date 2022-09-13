@@ -111,8 +111,15 @@ const Experience = () => {
   return (
     <section id='experience'>
       {/* <Title title='My Experience' text='What Skills I Have' /> */}
-      <div className='title'>
-        <h5 className='title-h5'>My Experience</h5>
+      <div
+        className='title'
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '20px',
+        }}
+      >
         <h2 className='title-h2'>What Skills I Have</h2>
       </div>
       <div className='experience-container'>
@@ -126,7 +133,7 @@ const Experience = () => {
                   <div className='feature'>
                     {/* <BsPatchCheckFill/> */}
                     <div className='feature-inner'>
-                      <h2>{title}</h2>
+                      <h3>{title}</h3>
                       <p>{level}</p>
                     </div>
                   </div>
