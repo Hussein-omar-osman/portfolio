@@ -46,9 +46,14 @@ const Experience = () => {
           title: 'Git',
           level: 'Experienced',
         },
-
         {
           id: 8,
+          title: 'React Native',
+          level: 'Intermediate',
+        },
+
+        {
+          id: 9,
           title: 'GitHub',
           level: 'Experienced',
         },
@@ -60,49 +65,54 @@ const Experience = () => {
         {
           id: 1,
           title: 'Node Js',
-          level: 'Advanced',
+          level: 'Intermediate',
         },
 
         {
           id: 2,
-          title: 'PHP',
+          title: 'Express Js',
           level: 'Intermediate',
         },
 
         {
           id: 3,
           title: 'MySQL',
-          level: 'Experienced',
+          level: 'Intermediate',
         },
 
         {
           id: 4,
-          title: 'Laravel',
+          title: 'Postgresql',
           level: 'Intermediate',
         },
 
         {
           id: 5,
-          title: 'WordPress',
-          level: 'Beginner',
+          title: 'FastApi',
+          level: 'Intermediate',
         },
 
         {
           id: 6,
           title: 'Python',
-          level: 'Advanced',
+          level: 'Intermediate',
         },
 
         {
           id: 7,
           title: 'Django',
-          level: 'Advanced',
+          level: 'Intermediate',
         },
 
         {
           id: 8,
           title: 'Flask',
-          level: 'Advanced',
+          level: 'Intermediate',
+        },
+        {
+          id: 9,
+          title: 'FireBase',
+          level: 'Intermediate',
         },
       ],
     },
