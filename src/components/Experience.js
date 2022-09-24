@@ -1,4 +1,19 @@
 import React from 'react';
+import htmlCss from '../img/html&css.png';
+import reactImg from '../img/react.png';
+import ang from '../img/angular.png';
+import js from '../img/js.png';
+import github from '../img/git.png';
+import ex from '../img/express.png';
+import tail from '../img/tail.png';
+import postgress from '../img/postgress.png';
+import nodeImg from '../img/nodeimg.png';
+import bts from '../img/bootstrap-new-logo_4x-removebg-preview.png';
+import py from '../img/python.png';
+import django from '../img/django.png';
+import fast from '../img/fastapi.png';
+import fb from '../img/firebase.png';
+import rn from '../img/React-Native-removebg-preview.png';
 
 const Experience = () => {
   const experience = [
@@ -118,6 +133,26 @@ const Experience = () => {
     },
   ];
 
+  const allImgs = [
+    htmlCss,
+    js,
+
+    ang,
+
+    github,
+    ex,
+    reactImg,
+    rn,
+    tail,
+    postgress,
+    nodeImg,
+    bts,
+    py,
+    django,
+    fast,
+    fb,
+  ];
+
   return (
     <section id='experience'>
       {/* <Title title='My Experience' text='What Skills I Have' /> */}
@@ -157,118 +192,11 @@ const Experience = () => {
 
       <div className='slider'>
         <div className='slide-track'>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarLSZ4DS9_cG_mgtZ_xBJeLXPIUihhlSq8tvlkZ3dAZvFoEqINMJ0lk9AiHwHXtDnyIE&usqp=CAU'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src={require('../img/logo-og-removebg-preview.png')}
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src={require('../img/React-Native-removebg-preview.png')}
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
-          <div className='slide'>
-            <img
-              src='https://reactjs.org/logo-og.png'
-              alt=''
-              height={100}
-              width={250}
-            />
-          </div>
+          {allImgs.map((item, i) => (
+            <div className='slide' key={i}>
+              <img src={item} alt='item' height={100} width={250} />
+            </div>
+          ))}
         </div>
       </div>
     </section>
