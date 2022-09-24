@@ -122,6 +122,7 @@ const Experience = () => {
       >
         <h2 className='title-h2'>What Skills I Have</h2>
       </div>
+
       <div className='experience-container'>
         {experience.map(({ title, items }) => (
           <div key={title} className='experience-item'>
@@ -142,6 +143,123 @@ const Experience = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className='slider'>
+        <div className='slide-track'>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarLSZ4DS9_cG_mgtZ_xBJeLXPIUihhlSq8tvlkZ3dAZvFoEqINMJ0lk9AiHwHXtDnyIE&usqp=CAU'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src={require('../img/logo-og-removebg-preview.png')}
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src={require('../img/React-Native-removebg-preview.png')}
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+          <div className='slide'>
+            <img
+              src='https://reactjs.org/logo-og.png'
+              alt=''
+              height={100}
+              width={250}
+            />
+          </div>
+        </div>
       </div>
     </section>
   );

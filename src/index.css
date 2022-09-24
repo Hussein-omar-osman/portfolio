@@ -476,6 +476,11 @@ form textarea {
   padding: 1rem 0;
   row-gap: 3rem;
 }
+@media (max-width: 830px) {
+  .hi {
+    display: none;
+  }
+}
 
 /* ================== MEDIA QUERY =================== */
 @media screen and (max-width: 1440px) {
@@ -542,4 +547,36 @@ form textarea {
 .feature-inner p {
   font-size: 0.6rem;
   color: var(--color-light);
+}
+
+.slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+.slider .slide-track {
+  animation: scroll 30s linear infinite;
+  display: flex;
+  width: calc(250 * 10);
+}
+
+.slider .slide {
+  height: 100px;
+  width: 250px;
+  margin: 0 20px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider .slide img {
+  object-fit: contain;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import hi from '../assets/hi.svg';
 
 const Hero = () => {
   return (
@@ -13,6 +14,7 @@ const Hero = () => {
           Download CV
         </a>
       </div>
+      <img className='hi' src={hi} alt='hi' width={510} height={510} />
     </section>
   );
 };
