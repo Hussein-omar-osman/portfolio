@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className='about' id='about'>
       <div className='about-img'>
-        <img src={require('../img/heroImage.png')} />
+        <img src='https://res.cloudinary.com/husseincloud/image/upload/v1664114479/heroImage_bud6k4.png' />
       </div>
 
       <div className='about-text'>
