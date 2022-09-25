@@ -142,9 +142,10 @@ const Experience = () => {
     github,
     ex,
     reactImg,
-    rn,
+
     tail,
     postgress,
+    rn,
     nodeImg,
     bts,
     py,

@@ -218,6 +218,7 @@ header.sticky {
   width: 100%;
   border-radius: 0.5rem;
   margin-bottom: 1.5rem;
+  object-fit: contain;
 }
 .row {
   padding: 25px;
@@ -232,12 +233,12 @@ header.sticky {
   margin-bottom: 1rem;
 }
 .row h3 {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 700;
 }
 .row h6 {
   color: var(--main-color);
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 500;
   letter-spacing: 1px;
 }
