@@ -16,6 +16,24 @@ const About = () => {
           based on individual client's need. Focused on delighting customers
           with innovative user-friendly designs.
         </p>
+        <div
+          className='contact-icons'
+          style={{ marginTop: '-15px', marginBottom: '15px' }}
+        >
+          <a
+            href='https://www.linkedin.com/in/hussein-omar-054910243/'
+            target='blank'
+          >
+            <i className='bx bxl-linkedin'></i>
+          </a>
+          <a href='https://github.com/Hussein-omar-osman' target='blank'>
+            <i className='bx bxl-github'></i>
+          </a>
+
+          <a href='#'>
+            <i className='bx bxl-instagram'></i>
+          </a>
+        </div>
         <div className='about-gri'>
           <div className='about-in'>
             <h5>1. Problem Solving</h5>

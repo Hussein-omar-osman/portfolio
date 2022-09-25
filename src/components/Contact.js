@@ -24,11 +24,14 @@ const Contact = () => {
           </li>
         </div>
         <div className='contact-icons'>
-          <a href='#'>
+          <a
+            href='https://www.linkedin.com/in/hussein-omar-054910243/'
+            target='blank'
+          >
             <i className='bx bxl-linkedin'></i>
           </a>
-          <a href='#'>
-            <i className='bx bxl-facebook'></i>
+          <a href='https://github.com/Hussein-omar-osman' target='blank'>
+            <i className='bx bxl-github'></i>
           </a>
           <a href='#'>
             <i className='bx bxl-behance'></i>
