@@ -4,7 +4,10 @@ const Header = () => {
   return (
     <header>
       <a href='#' className='logo'>
-        <img src='img/logo.png' />
+        <img
+          src={require('../img/heroImage.png')}
+          style={{ height: '50px', width: '50px', opacity: '0.7' }}
+        />
       </a>
       <div className='bx bx-menu' id='menu-icon'></div>
 
