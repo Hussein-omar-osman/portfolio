@@ -10,7 +10,7 @@ const Hero = () => {
           I'M Hus<span>sein</span> <br /> Om<span>ar</span>
         </h1>
         <h3>Full-Stack Developer</h3>
-        <a href='#' className='btn'>
+        <a href={require('../img/cv.png')} download className='btn'>
           Download CV
         </a>
       </div>
