@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from './Project';
 
 function Portfolio() {
   const data = [
@@ -75,42 +76,7 @@ function Portfolio() {
 
       <div className='portfolio-content'>
         {data.map((item, i) => (
-          <div className='row' key={i}>
-            <img src={item.shot} />
-            <div className='main-row'>
-              <div className='row-text'>
-                <h6>{item.name}</h6>
-              </div>
-              <div className='row-icon'>
-                <i className='bx bx-heart'></i>
-              </div>
-            </div>
-            <h3>{item.des}</h3>
-            <div
-              style={{
-                diplay: 'flex',
-                justifyContent: 'space-evenly',
-                alignItems: 'center',
-                marginTop: '25px',
-              }}
-            >
-              <a
-                href={item.github}
-                className='btn'
-                target='blank'
-                style={{
-                  marginRight: '20px',
-                  backgroundColor: 'grey',
-                  border: 'none',
-                }}
-              >
-                Github
-              </a>
-              <a href={item.live} className='btn' target='blank'>
-                Live
-              </a>
-            </div>
-          </div>
+          <Project item={item} key={i} />
         ))}
       </div>
     </section>
